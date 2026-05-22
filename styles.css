@@ -183,6 +183,33 @@ h2 {
   max-width: 520px;
 }
 
+.release-banner {
+  width: min(620px, 100%);
+  margin-top: 24px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid rgba(242, 125, 45, 0.35);
+  border-left: 4px solid var(--orange);
+  border-radius: var(--radius);
+  background: rgba(242, 125, 45, 0.10);
+  color: #7a3a0b;
+}
+
+.release-banner strong {
+  flex: 0 0 auto;
+  color: #a2490d;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+}
+
+.release-banner span {
+  color: var(--muted);
+  font-weight: 700;
+  line-height: 1.35;
+}
+
 .hero-badges {
   display: flex;
   flex-wrap: wrap;
@@ -562,6 +589,12 @@ h2 {
 
   .hero {
     padding-top: 46px;
+  }
+
+  .release-banner {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
   }
 
   h1 {
