@@ -183,6 +183,14 @@ h2 {
   max-width: 520px;
 }
 
+.authors {
+  margin: 20px 0 0;
+  color: var(--ink);
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
 .release-banner {
   width: min(620px, 100%);
   margin-top: 24px;
