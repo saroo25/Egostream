@@ -309,19 +309,16 @@ h2 {
 }
 
 .paper-link {
-  min-width: 156px;
+  min-width: 96px;
 }
 
 .arxiv-symbol {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  color: var(--ink);
-  background: #fff;
-  font-size: 0.9rem;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.12rem;
   font-weight: 800;
   line-height: 1;
 }
