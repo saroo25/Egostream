@@ -7,6 +7,7 @@
   --line: #dbe3ea;
   --blue: #0f4c81;
   --blue-soft: #e7f1fb;
+  --arxiv-red: #b31b1b;
   --green: #1e8e5a;
   --orange: #f27d2d;
   --red: #d94848;
@@ -294,8 +295,8 @@ h2 {
 }
 
 .btn.arxiv-button {
-  background: #b31b1b;
-  border-color: #b31b1b;
+  background: var(--arxiv-red);
+  border-color: var(--arxiv-red);
 }
 
 .btn.ghost {
