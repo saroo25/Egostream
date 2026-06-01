@@ -273,6 +273,7 @@ h2 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 9px;
   min-height: 46px;
   padding: 0 18px;
   border: 1px solid var(--line);
@@ -294,6 +295,42 @@ h2 {
 
 .btn.ghost {
   background: var(--surface);
+}
+
+.btn.disabled {
+  cursor: not-allowed;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.62);
+  box-shadow: none;
+}
+
+.btn.disabled:hover {
+  transform: none;
+}
+
+.paper-link {
+  min-width: 156px;
+}
+
+.arxiv-symbol {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 24px;
+  border-radius: 5px;
+  color: #b31b1b;
+  background: #fff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.8rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.btn-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
 }
 
 .teaser {
