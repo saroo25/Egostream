@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://saroo25.github.io/Egostream/sitemap.xml
